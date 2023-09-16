@@ -1,0 +1,38 @@
+body {
+  background: #2e2a39;
+}
+
+.container {
+  position: relative;
+  width: 60vw;
+  height: 100vh;
+  margin: auto;
+  background: #2e2a39;
+  overflow: hidden;
+}
+
+.astronaut {
+  background: url(../imgs/astronaut.webp);
+  height: 324px;
+  top: -10px;
+  left: 37%;
+  position: absolute;
+  width: 211px;
+}
+
+.astronaut-mask {
+  background: #2e2a39;
+  height: 29%;
+  left: 35%;
+  position: absolute;
+  width: 29%;
+}
+
+.ufo {
+  background: url(../imgs/ufo-ship-big.webp);
+  bottom: -185px;
+  height: 184px;
+  left: 35%;
+  position: absolute;
+  width: 329px;
+}
